@@ -1,0 +1,14 @@
+﻿@font-face {
+    font-family: 'Jambono-Medium-Regular';
+    src: url('../admin_fonts/Jambono-Medium-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Calistoga-Regular';
+    src: url('../admin_fonts/Calistoga-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Sriracha-Regular';
+    src: url('../admin_fonts/Sriracha-Regular.ttf') format('truetype');
+}

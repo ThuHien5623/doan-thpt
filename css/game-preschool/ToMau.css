@@ -1,0 +1,280 @@
+﻿body {
+  font-family: "Be Vietnam Pro", sans-serif;
+}
+
+.bg-tomau {
+  /*    display: flex;
+  justify-content: center;
+  align-items: center;*/
+  background-image: url(/images/images_background/ten-lua.png);
+  background-position: center;
+  background-size: cover;
+  min-height: 100vh;
+  background-repeat: no-repeat;
+}
+
+.imgKhongMau {
+  width: 80%;
+  padding: 5px;
+  margin: 5px;
+  object-fit: fill;
+}
+
+@media print {
+  body *:not(#imgkhongmau):not(#imgkhongmau *) {
+    visibility: hidden;
+  }
+  .imgKhongMau {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  #imgkhongmau {
+    visibility: visible;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    margin: 0;
+    padding: 0;
+  }
+}
+.form-control {
+  display: block;
+  width: 100%;
+  height: calc(1.5em + 0.75rem + 2px);
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.frame-view {
+  margin: 2.5rem auto 0 auto;
+  width: 90vw;
+  border: 6px solid #3e7cef;
+  border-radius: 30px;
+  min-height: calc(90vh - 70px);
+  background-color: #fff;
+}
+
+@media (min-width: 992px) {
+  .frame-view {
+    margin: 70px auto 0 auto;
+    width: 90vw;
+    border: 10px solid #3e7cef;
+    border-radius: 40px;
+    min-height: calc(90vh - 90px);
+  }
+}
+.name {
+  margin-top: -2rem;
+  display: flex;
+  width: 100%;
+  align-items: start;
+  justify-content: center;
+}
+.name img {
+  width: 55px;
+  position: relative;
+  z-index: 0;
+}
+.name span {
+  margin-left: -1rem;
+  margin-right: -1rem;
+  position: relative;
+  z-index: 1;
+  background-image: url(/images/images_button/bg-title-blue_02.png);
+  background-size: contain;
+  background-position: top left;
+  background-repeat: repeat-x;
+  font-size: 15px;
+  color: white;
+  line-height: 36px;
+  height: 47px;
+  text-align: center;
+  font-weight: 700;
+}
+
+@media (min-width: 992px) {
+  .name {
+    margin-top: -50px;
+    margin-bottom: 1rem;
+  }
+  .name img {
+    width: 72px;
+  }
+  .name span {
+    margin-left: -1rem;
+    margin-right: -1rem;
+    font-size: 23px;
+    line-height: 50px;
+    height: 63px;
+    font-weight: 700;
+  }
+}
+.frame-main {
+  display: flex;
+  flex-wrap: nowrap;
+  padding: 0 1rem;
+}
+.frame-main .choise-image {
+  width: calc(40% - 1rem);
+  margin-right: 1rem;
+}
+.frame-main .view-image {
+  width: 60%;
+}
+
+.choise-image .select-cate label {
+  display: inline-block;
+  margin-bottom: 0.5rem;
+}
+
+.choise-image-list {
+  margin-top: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+.choise-image-list .image-item {
+  width: calc(25% - 10px);
+  border: 2px solid #495057;
+  margin-bottom: 0.5rem;
+  border-radius: 0.25rem;
+  margin-right: 8px;
+}
+.choise-image-list .image-item.active {
+  border: 2px solid #3e7cef;
+}
+.choise-image-list .image-item:nth-child(4n) {
+  margin-right: 0;
+}
+.choise-image-list .image-item img {
+  width: 100%;
+  aspect-ratio: 1;
+  object-fit: contain;
+  object-position: center;
+}
+
+@media (min-width: 992px) {
+  .choise-image-list {
+    margin-top: 1rem;
+  }
+  .choise-image-list .image-item {
+    width: calc(20% - 10px);
+    margin-bottom: 0.5rem;
+    border-radius: 0.25rem;
+    margin-right: 7px;
+  }
+  .choise-image-list .image-item.active {
+    border: 2px solid #3e7cef;
+  }
+  .choise-image-list .image-item:nth-child(4n) {
+    margin-right: 7px;
+  }
+  .choise-image-list .image-item:nth-child(5n) {
+    margin-right: 0;
+  }
+}
+.frame-content {
+  /* height: calc(100% - 40px);
+  overflow-x: hidden;
+  overflow-y: auto;*/
+}
+
+.owl-theme .owl-nav [class*=owl-] {
+  font-size: 6rem;
+  color: #3f51b5;
+  top: 50%;
+  line-height: 1;
+  margin-top: -3.75rem;
+  border: 0;
+  background-color: transparent;
+  position: absolute;
+}
+
+.owl-theme .owl-nav .owl-next {
+  right: -2rem;
+}
+
+.owl-theme .owl-nav .owl-prev {
+  left: -2rem;
+}
+
+.img-tomau-print {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.img-tomau-print__color {
+  text-align: center;
+}
+.img-tomau-print__non-color {
+  text-align: center;
+}
+
+.Danh-muc {
+  margin: 1%;
+  padding: 1%;
+}
+.Danh-muc.bg-color {
+  background: antiquewhite;
+}
+
+.card_chude {
+  justify-content: center;
+  font-weight: 700;
+  display: flex;
+  font-size: 17px;
+  width: 110px;
+  height: 110px;
+  border-radius: 13%;
+  padding: 10px;
+  background: white;
+  align-items: center;
+  text-align: center;
+  border: 5px solid #6b6b6b;
+  color: #000;
+  text-decoration: none;
+}
+.card_chude.card_active {
+  background: #1491ff;
+  color: #fff;
+  border: 5px solid #1491ff;
+}
+
+.card_chude:hover {
+  text-decoration: none;
+}
+
+.sub-item-tomau {
+  background-color: #fff;
+  display: block;
+  text-align: center;
+}
+.sub-item-tomau img {
+  width: 100px;
+  height: 100px;
+  object-position: center;
+  object-fit: contain;
+  margin: auto;
+}
+
+.btn-print-tomau {
+  text-align: center;
+}
+.btn-print-tomau .btnInHinh {
+  display: inline-block;
+  margin: 1rem auto;
+  color: white;
+  font-weight: 900;
+  padding: 1rem 1.5rem;
+  border-radius: 0.75rem;
+  border: none;
+  background-color: #6363f2;
+}

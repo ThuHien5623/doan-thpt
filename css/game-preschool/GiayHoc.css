@@ -1,0 +1,434 @@
+﻿body {
+  font-family: "Be Vietnam Pro", sans-serif;
+}
+
+.bg-cate-giayhoc {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(/images/images_background/game-giay-2.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  overflow: hidden;
+  background-repeat: no-repeat;
+}
+
+#cate-giayhoc .owl-nav [class*=owl-] {
+  background-image: url(/images/images_button/btn-29.png);
+  background-color: transparent;
+  background-position: center;
+  background-size: contain;
+  width: 40px;
+  height: 40px;
+  border: none;
+  position: absolute;
+  top: 50%;
+  margin-top: -20px;
+  font-size: 0;
+}
+
+#cate-giayhoc .owl-nav .owl-prev {
+  left: 0;
+  margin-left: -20px;
+}
+
+#cate-giayhoc .owl-nav .owl-next {
+  right: 0;
+  margin-right: -20px;
+  background-image: url(/images/images_button/btn-32.png);
+}
+
+@media (min-width: 992px) {
+  #cate-giayhoc .owl-nav [class*=owl-] {
+    width: 65px;
+    height: 65px;
+    top: 50%;
+    margin-top: -32.5px;
+  }
+  #cate-giayhoc .owl-nav .owl-prev {
+    margin-left: -30px;
+  }
+  #cate-giayhoc .owl-nav .owl-next {
+    margin-right: -30px;
+  }
+}
+.slide-sach {
+  width: 80%;
+}
+
+.cate-giayhoc-item {
+  display: block;
+  border-radius: 0.75rem;
+  padding: 0.75rem;
+  background-color: #fff;
+  border: 4px solid #fff;
+  text-decoration: none;
+}
+.cate-giayhoc-item:hover {
+  border: 4px solid #007aee;
+}
+.cate-giayhoc-item__title {
+  height: 3.25rem;
+  text-align: center;
+  font-size: 1.25rem;
+  color: #a52a2a;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+.cate-giayhoc-item__letter {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  min-height: 150px;
+}
+.cate-giayhoc-item__letter--image-1 {
+  border: 2px solid #007aee;
+  border-radius: 2px;
+  box-shadow: 6px 8px 17px -10px grey;
+  transform: rotate(333deg);
+  width: 68%;
+  height: fit-content;
+  margin-top: 26%;
+}
+.cate-giayhoc-item__letter--image-2 {
+  height: fit-content;
+  margin-top: 0;
+  margin-left: -3%;
+  width: 87%;
+  border: 2px solid #007aee;
+  border-radius: 2px;
+  box-shadow: 6px 8px 17px -10px grey;
+  transform: rotate(353deg);
+}
+.cate-giayhoc-item__letter--image-3 {
+  margin-top: 21%;
+  height: fit-content;
+  border: 2px solid #007aee;
+  border-radius: 2px;
+  box-shadow: 6px 8px 17px -10px grey;
+  transform: rotate(28deg);
+  width: 60%;
+}
+.cate-giayhoc-item__bg {
+  width: 90%;
+  margin: 0 auto 0.5rem;
+}
+
+@media (min-width: 992px) {
+  .cate-giayhoc-item {
+    display: block;
+    border-radius: 0.75rem;
+    padding: 1rem;
+    background-color: #fff;
+    border: 6px solid #fff;
+  }
+  .cate-giayhoc-item:hover {
+    border: 6px solid #007aee;
+  }
+  .cate-giayhoc-item__title {
+    height: 3.25rem;
+    text-align: center;
+    font-size: 1.25rem;
+    color: #a52a2a;
+    font-weight: 600;
+    margin-bottom: 1rem;
+  }
+  .cate-giayhoc-item__letter {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    min-height: 170px;
+  }
+  .cate-giayhoc-item__letter--image-1 {
+    border: 2px solid #007aee;
+    border-radius: 2px;
+    box-shadow: 6px 8px 17px -10px grey;
+    transform: rotate(333deg);
+    width: 68%;
+    height: fit-content;
+    margin-top: 26%;
+  }
+  .cate-giayhoc-item__letter--image-2 {
+    height: fit-content;
+    margin-top: 0;
+    margin-left: -3%;
+    width: 87%;
+    border: 2px solid #007aee;
+    border-radius: 2px;
+    box-shadow: 6px 8px 17px -10px grey;
+    transform: rotate(353deg);
+  }
+  .cate-giayhoc-item__letter--image-3 {
+    margin-top: 21%;
+    height: fit-content;
+    border: 2px solid #007aee;
+    border-radius: 2px;
+    box-shadow: 6px 8px 17px -10px grey;
+    transform: rotate(28deg);
+    width: 60%;
+  }
+  .cate-giayhoc-item__bg {
+    width: 90%;
+    margin: 0 auto 1rem;
+  }
+}
+.name {
+  margin-top: -2rem;
+  display: flex;
+  width: 100%;
+  align-items: start;
+  justify-content: center;
+}
+.name img {
+  width: 55px;
+  position: relative;
+  z-index: 0;
+}
+.name span {
+  margin-left: -1rem;
+  margin-right: -1rem;
+  position: relative;
+  z-index: 1;
+  background-image: url(/images/images_button/bg-title-blue_02.png);
+  background-size: contain;
+  background-position: top left;
+  background-repeat: repeat-x;
+  font-size: 15px;
+  color: white;
+  line-height: 36px;
+  height: 47px;
+  text-align: center;
+  font-weight: 700;
+}
+
+@media (min-width: 992px) {
+  .name {
+    margin-top: -50px;
+    margin-bottom: 1rem;
+  }
+  .name img {
+    width: 72px;
+  }
+  .name span {
+    margin-left: -1rem;
+    margin-right: -1rem;
+    font-size: 23px;
+    line-height: 50px;
+    height: 63px;
+    font-weight: 700;
+  }
+}
+.frame-view {
+  margin: 10vh auto 0 auto;
+  width: 90vw;
+  border: 10px solid #3e7cef;
+  border-radius: 40px;
+  height: calc(90vh - 70px);
+  background-color: #fff;
+}
+
+.frame-content {
+  height: calc(100% - 40px);
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.img-animate-1 {
+  position: fixed;
+  bottom: 5vh;
+  left: 5vw;
+  width: 10%;
+}
+
+.paper-download-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.paper-download-list .paper-download {
+  width: calc(50% - 7.5px);
+  margin-bottom: 1.5rem;
+}
+
+#slide-aphabet .owl-nav [class*=owl-] {
+  font-size: 6rem;
+  color: #3f51b5;
+  top: 50%;
+  line-height: 1;
+  margin-top: -3.75rem;
+  border: 0;
+  background-color: transparent;
+  position: absolute;
+}
+
+#slide-aphabet .owl-nav .owl-next {
+  right: -2rem;
+}
+
+#slide-aphabet .owl-nav .owl-prev {
+  left: -2rem;
+}
+
+.Danh-muc {
+  margin: 1%;
+  padding: 1%;
+  background: antiquewhite;
+}
+
+.aphabet-item {
+  background-color: #fff;
+  display: block;
+  text-align: center;
+}
+.aphabet-item img {
+  width: 100px;
+  height: 100px;
+  object-position: center;
+  object-fit: contain;
+  margin: auto;
+}
+
+video {
+  background: #ffffff;
+}
+
+/*
+.thoat {
+    position: absolute;
+    z-index: 10000;
+    max-width: none;
+    width: 60px;
+}*/
+/*.item img {
+    border: 5px solid #007aee;
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    box-shadow: 6px 8px 17px -10px grey;
+}
+
+.owl-dots {
+    display: none;
+}
+
+.owl-prev {
+    position: absolute;
+    margin-top: -13% !important;
+    margin-left: -2.5% !important;
+}
+
+.owl-next {
+    margin-top: -13% !important;
+    margin-left: 99% !important;
+    position: absolute;
+}
+
+.owl-theme .owl-nav [class*=owl-] {
+    color: #3f51b5;
+    font-size: 116px;
+    top: 112%;
+    position: absolute;
+    margin-top: 17px;
+    border: none;
+    background: none;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.owl-theme .owl-nav [class*=owl-]:hover {
+    background: none;
+    outline: none;
+    color: #f00;
+    border: none;
+    text-decoration: none;
+}
+
+.owl-theme .owl-nav [class*=owl-]:focus {
+    background: none;
+    outline: none;
+    color: #f00;
+    border: none;
+    text-decoration: none;
+}*/
+/*.owl-nav {
+    display: flex;
+    justify-content: space-between;
+}*/
+.bg-detail-giayhoc {
+  overflow: hidden;
+  background-position: center;
+  background-image: url(/images/images_background/ten-lua.png);
+  background-size: cover;
+}
+
+.block-in {
+  border: 4px solid red;
+  width: 20%;
+  margin-top: 1%;
+  height: 20%;
+  margin-left: -37%;
+  font-weight: 700;
+  padding: 1%;
+  border-radius: 10px;
+  background: blanchedalmond;
+  box-shadow: 2px 3px 7px 0px #dab9b9;
+}
+
+.block-chinh {
+  padding-bottom: 20%;
+  height: 43rem;
+  margin: 1%;
+  border-radius: 12px;
+  border: 5px solid #30dcea;
+  background-color: rgba(243, 252, 253, 0.9019607843);
+  box-shadow: 1px 2px 12px 2px rgba(39, 38, 29, 0.0509803922);
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.block-video {
+  margin: 1%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.block-video video {
+  box-shadow: 2px 4px 13px 5px rgba(2, 30, 30, 0.2784313725);
+  /*box-shadow: 1px 2px 12px 2px #27261d0d;*/
+  border-radius: 10px;
+}
+
+.block-hinh img {
+  z-index: 1000;
+}
+
+.block-ten span {
+  position: fixed;
+  font-family: inherit;
+  margin-left: 14%;
+  font-size: 23px;
+  width: 9%;
+  font-weight: 600;
+  margin-top: 17%;
+  z-index: 100000;
+}
+
+/*.block-ten{
+            background-position: center;
+            background-image: url(../../sass/GamePreschool/images/images_background/nhan.png);
+            background-size: cover;
+        }*/
+/*.item a img:hover {
+    transition-duration: 0.5s;
+    transform: scale(1.1);
+}*/
+/*
+.owl-stage {
+    height: 8rem;
+    display: flex;
+    align-items: center;
+}*/

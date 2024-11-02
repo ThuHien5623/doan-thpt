@@ -1,0 +1,13 @@
+﻿@mixin txt1overflow {
+    display:block;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+@mixin txtManyOverflow($row) {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: $row;
+    -webkit-box-orient: vertical;
+}

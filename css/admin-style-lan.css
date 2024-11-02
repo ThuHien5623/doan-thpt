@@ -1,0 +1,316 @@
+﻿body {
+    background: #eaeaeb;
+}
+
+.container-fluid {
+    padding: 0;
+    margin: 0;
+}
+
+.card {
+    box-shadow: 2px 3px 8px 5px rgba(128, 128, 128, .1607843137);
+    background: #fff;
+    border-radius: .75rem;
+    margin: 1% 15px;
+    padding: .75rem;
+}
+
+.block-tlite {
+    text-align: center;
+    font-weight: 700;
+    padding: 1%;
+    color: #8f0100;
+    font-size: 18px;
+}
+
+.block-tlite-line {
+    font-weight: 600;
+    border-bottom: 1px solid brown;
+    color: #8f0100;
+    text-transform: uppercase;
+}
+/*tên chính*/
+.buttom-tab {
+    border-bottom: 3px solid #8f0100;
+}
+
+    .buttom-tab .buttom-edit {
+        position: relative;
+        box-shadow: rgb(0 0 0 / 4%) 4px -7px 6px, rgb(0 0 0 / 14%) -4px -5px 14px;
+        border-top-right-radius: 1rem;
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+        color: white;
+        font-size: 0.7rem;
+        padding: 0.5rem;
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+/*tên block*/
+.name-block {
+    padding-left: 0.5rem;
+    display: flex;
+    height: 2.5rem;
+    color: white;
+    font-weight: 700;
+    background: linear-gradient(180deg, rgba(161, 10, 10, 1) 0%, rgba(247, 6, 6, 1) 100%);
+    align-items: center;
+}
+/*.buttom-tab a {
+    border-top-right-radius: 0.4rem;
+    border-top-left-radius: 0.4rem;
+    padding: 0.5rem;
+    color: #fff;
+}*/
+.content-headertl {
+    padding-bottom: 0.3rem;
+    border-bottom: 3px solid #8f0100;
+}
+
+    .content-headertl span {
+        box-shadow: rgb(0 0 0 / 4%) 4px -7px 6px, rgb(0 0 0 / 14%) -4px -5px 14px;
+        border-top-right-radius: 1rem;
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+        background: #8f0100;
+        color: white;
+        font-size: 0.7rem;
+        padding: 0.5rem;
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+
+.content-headertl-out {
+    display: flex;
+    padding-bottom: -0.7rem;
+    border-bottom: 3px solid #8f0100;
+    justify-content: space-between;
+}
+
+    .content-headertl-out span {
+        box-shadow: rgb(0 0 0 / 4%) 4px -7px 6px, rgb(0 0 0 / 14%) -4px -5px 14px;
+        border-top-right-radius: 1rem;
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+        background: #8f0100;
+        color: white;
+        font-size: 0.7rem;
+        padding: 0.5rem;
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+/*filter table*/
+.header-table {
+    background: linear-gradient(180deg, rgba(161,10,10,1) 0%, rgba(247,6,6,1) 100%);
+    color: white;
+    font-weight: 600;
+}
+
+.but-1 {
+    margin-bottom: 1rem;
+}
+
+.up-1 {
+    margin-top: 1rem;
+}
+/*table html css*/
+.table thead th {
+    text-align: center;
+    border: 2px solid #dee2e6;
+    background: linear-gradient(180deg, rgba(161,10,10,1) 0%, rgba(247,6,6,1) 100%);
+    color: white;
+    font-weight: 600;
+}
+
+.table th {
+    text-align: center;
+    border: 2px solid #dee2e6;
+    background: linear-gradient(180deg, rgba(161,10,10,1) 0%, rgba(247,6,6,1) 100%);
+    color: white;
+    font-weight: 600;
+}
+
+.table th, .table td {
+    padding: 0.5rem;
+    border: 2px solid #dee2e6;
+    text-align: center;
+}
+/*bênh cạnh table (nhap thong tin)*/
+.popup-main__insert {
+    padding: 1rem;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    border: 1px solid #8080806b;
+}
+
+
+.block-style .block-menu {
+    width: 95px;
+    min-width: 95px;
+    box-shadow: 4px 0px 5px 1px #7575754a;
+}
+
+    .block-style .block-menu .menu-icon .menu-item.active {
+        border-bottom: 1px dashed #918f8f;
+    }
+
+    .block-style .block-menu .menu-icon .menu-item {
+        border-bottom: 1px dashed #918f8f;
+    }
+
+.block-style .block-menu {
+    background-color: #effaff !important;
+}
+
+    .block-style .block-menu .menu-icon .menu-item.active {
+        border-bottom: 1px dashed #4099ff !important;
+    }
+
+    .block-style .block-menu .menu-icon .menu-item.active {
+        border-left-color: #1365d3 !important;
+    }
+
+.drlist {
+    width: 100%;
+    border: 1px solid #2b2b2b4a;
+    height: 2.5rem;
+    background: #fafafa;
+}
+/*popup control asp.net*/
+.header-popup {
+    background: linear-gradient(to bottom, #8d1616 0%, #d91e1e 100%) !important;
+    color: white !important;
+    font-weight: 600 !important;
+}
+
+.dxpc-maximizeBtn .dxWeb_pcMaximizeButton_Moderno {
+    filter: brightness(0) invert(1);
+}
+
+    .dxpc-maximizeBtn .dxWeb_pcMaximizeButton_Moderno:hover {
+        filter: brightness(0) invert(1);
+    }
+
+.dxpc-collapseBtn .dxWeb_pcCollapseButton_Moderno {
+    filter: brightness(0) invert(1);
+}
+
+    .dxpc-collapseBtn .dxWeb_pcCollapseButton_Moderno:hover {
+        filter: brightness(0) invert(1);
+    }
+
+.dxpc-closeBtn .dxWeb_pcCloseButton_Moderno {
+    filter: brightness(0) invert(1); /* This will make the icons white */
+}
+
+    /* Ensuring the hover state also keeps the icon white */
+    .dxpc-closeBtn .dxWeb_pcCloseButton_Moderno:hover {
+        filter: brightness(0) invert(1); /* Ensures icons stay white on hover */
+    }
+
+.dxpcLite_Moderno .dxpc-content, .dxdpLite_Moderno .dxpc-content {
+    padding: 14px 15px 15px;
+}
+/*header modal bostrap*/
+.bg-info {
+    color: white;
+    background: linear-gradient(to bottom, #8d1616 0%, #d91e1e 100%) !important;
+}
+
+.modal-header .close {
+    color: white;
+}
+/*kt*/
+.table-over {
+    max-width: calc(100% - 20px);
+    overflow-x: auto;
+}
+/*uploat*/
+.upload-container {
+    margin-bottom: 15px;
+}
+
+.upload-box {
+    border: 2px dashed #d9534f;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    cursor: pointer;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+}
+
+.upload-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.upload-icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+    .upload-icon img {
+        width: 50px;
+        height: 50px;
+        margin-bottom: 10px;
+    }
+
+    .upload-icon p {
+        color: #d9534f;
+        font-weight: bold;
+    }
+
+.btn-save-out {
+    text-align: center;
+}
+
+.buttom-xem {
+    display: flex;
+    align-items: flex-end;
+}
+/*
+<Styles>
+<Header CssClass="header-table" ForeColor="White" Font-Bold="true"></Header>
+</Styles>
+<Settings ShowFilterRow="true" />
+
+buttom-tab buttom-edit
+
+<div class="row">
+                        <div class="col-4">
+                            <div class="name-block">Nhập thông tin</div>
+                            <div class="popup-main__insert">
+                            </div>
+                        </div>
+                    </div>
+
+    <div class="content-headertl">
+                        <span>TỔ CHUYÊN MÔN</span>
+                    </div>
+
+     <HeaderStyle CssClass="header-popup" />
+
+    <label>Tên Phân Loại :</label>
+                            <asp:TextBox ID="txtTenPhanLoai" runat="server" ClientIDMode="Static" class="form-control boxed"> </asp:TextBox>
+
+    <div class="upload-container">
+                            <input type="text" id="txtImage" runat="server" hidden="hidden" />
+                            <div id="up1" class="upload-box">
+                                <asp:FileUpload CssClass="hidden-xs-up" ID="FileUpload1" runat="server" hidden="hidden" onchange="showPreview1(this)" accept="image/jpeg, image/png, image/gif" />
+                                <div class="upload-content" onclick="clickavatar1()">
+                                    <div class="upload-icon">
+                                        <img id="imgPreview1" src="../../images/icon/icon-lan/icon-upload.png" />
+                                        <p>Kéo và thả để tải lên hoặc nhấp để chọn tệp</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+*/
